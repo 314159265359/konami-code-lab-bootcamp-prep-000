@@ -1,15 +1,15 @@
-/*const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
+function init() {
 var index = 0
 
-
-function onKeyDownHandler(e) {
+document.addEventListener('keydown', function (e) {
     const key = parseInt(e.detail || e.which);
 
     if (key === code[index]) {
       index++;
 
-      if (index === code.length) {
+      if (index === code.length-1) {
         alert("Hurray!");
 
         index = 0;
@@ -17,13 +17,9 @@ function onKeyDownHandler(e) {
     } else {
       index = 0;
     }
-  }
-  */
+  },false);
 
-function init(){
-
-
-//init();
+/*
 
   if (window.addEventListener) {
     var index = [],
@@ -41,3 +37,4 @@ function init(){
 };
 
 }
+*/
