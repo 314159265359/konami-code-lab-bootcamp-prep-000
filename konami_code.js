@@ -21,9 +21,9 @@ function onKeyDownHandler(e) {
   */
 
 function init(){
-}
 
-init();
+
+//init();
 
   if (window.addEventListener) {
     var index = [],
@@ -39,3 +39,5 @@ init();
         };
     }, true);
 };
+
+}
