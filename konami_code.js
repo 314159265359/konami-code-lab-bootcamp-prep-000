@@ -19,6 +19,8 @@ document.addEventListener('keydown', function (e) {
     }
   },false);
 
+
+init();
 /*
 
   if (window.addEventListener) {
